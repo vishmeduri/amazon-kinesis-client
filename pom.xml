@@ -25,7 +25,7 @@
   </licenses>
 
   <properties>
-    <aws-java-sdk.version>1.11.115</aws-java-sdk.version>
+    <aws-java-sdk.version>1.11.1034</aws-java-sdk.version>
     <sqlite4java.version>1.0.392</sqlite4java.version>
     <sqlite4java.native>libsqlite4java</sqlite4java.native>
     <sqlite4java.libpath>${project.build.directory}/test-lib</sqlite4java.libpath>
@@ -50,12 +50,12 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>18.0</version>
+      <version>32.0.0-android</version>
     </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>2.6.1</version>
+      <version>3.25.5</version>
     </dependency>
     <dependency>
       <groupId>commons-lang</groupId>
